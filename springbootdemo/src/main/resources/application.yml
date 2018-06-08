@@ -1,0 +1,16 @@
+server:
+  port: 8080
+show: hello
+human:
+  age: 20
+  height: 200
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3036/boottest
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
